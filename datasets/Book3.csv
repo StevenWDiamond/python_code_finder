@@ -1,0 +1,158 @@
+1st_choice,2nd_choice,3rd_choice,4th_choice,5th_choice,Output
+Python Info/Code,Math Functions,Rules and Paretheses,NA,NA,Info
+Python Info/Code,Math Functions,Addition,NA,NA,Code
+Python Info/Code,Math Functions,Subtraction,NA,NA,Code
+Python Info/Code,Math Functions,Multiplication,NA,NA,Code
+Python Info/Code,Math Functions,Division,NA,NA,Code
+Python Info/Code,Math Functions,Remainder,NA,NA,Code
+Python Info/Code,Math Functions,Equals,NA,NA,Code
+Python Info/Code,Math Functions,Floor Division,NA,NA,Code
+Python Info/Code,Math Functions,Exponent,NA,NA,Code
+Python Info/Code,Math Functions,Add to var & change var value,NA,NA,+=
+Python Info/Code,Data Types,Variables,Naming,NA,Info
+Python Info/Code,Data Types,Variables,Identify Data Type,NA,Code
+Python Info/Code,Data Types,Variables,Current Value,NA,Code
+Python Info/Code,Data Types,Variables,List All Variables,NA,%whos
+Python Info/Code,Data Types,Variables,Delete Variable,NA,del(var_name)
+Python Info/Code,Data Types,Integers,Create,NA,Code
+Python Info/Code,Data Types,Float/Decimal,Create,NA,Code
+Python Info/Code,Data Types,Strings,Create,NA,Code
+Python Info/Code,Data Types,Lists,Create,NA,Code
+Python Info/Code,Data Types,Tuples,Create,NA,Code
+Python Info/Code,Data Types,Sets,Create,NA,Code
+Python Info/Code,Data Types,Dictionary,Create,NA,Code
+Python Info/Code,Data Types,Booleans,Create,NA,Code
+Python Info/Code,Data Types,Strings,Info,Length,Code
+Python Info/Code,Data Types,Lists,Info,Length,Code
+Python Info/Code,Data Types,Tuples,Info,Length,Code
+Python Info/Code,Data Types,Sets,Info,Length,Code
+Python Info/Code,Data Types,Dictionary,Info,Length,Code
+Python Info/Code,Data Types,Integers,Properties,NA,Info
+Python Info/Code,Data Types,Float/Decimal,Properties,NA,Info
+Python Info/Code,Data Types,Strings,Properties,NA,Info
+Python Info/Code,Data Types,Lists,Properties,NA,Info
+Python Info/Code,Data Types,Tuples,Properties,NA,Info
+Python Info/Code,Data Types,Sets,Properties,NA,Info
+Python Info/Code,Data Types,Dictionary,Properties,NA,Info
+Python Info/Code,Data Types,Booleans,Properties,NA,Info
+Python Info/Code,Data Types,Integers,Manipulate,Integer to String,Code
+Python Info/Code,Data Types,Integers,Manipulate,Integer to Float,Code
+Python Info/Code,Data Types,Float/Decimal,Manipulate,Float to Integer,Code
+Python Info/Code,Data Types,Float/Decimal,Manipulate,Float to Striing,Code
+Python Info/Code,Data Types,Strings,Manipulate,Numeric String to Integer,Code
+Python Info/Code,Data Types,Strings,Manipulate,Numeric String to Float,Code
+Python Info/Code,Data Types,Strings,Manipulate,Slicing,Code
+Python Info/Code,Data Types,Strings,Manipulate,Splitting into List,Code
+Python Info/Code,Data Types,Strings,Manipulate,Make all lowercase,Code
+Python Info/Code,Data Types,Strings,Manipulate,Make all uppercase,Code
+Python Info/Code,Data Types,Strings,Manipulate,Replace a word/segment,Code
+Python Info/Code,Data Types,Strings,Manipulate,Combine strings,Code
+Python Info/Code,Data Types,Lists,Manipulate,Call specific element,Code
+Python Info/Code,Data Types,Lists,Manipulate,Call range,Code
+Python Info/Code,Data Types,Lists,Manipulate,Combine Lists,Code
+Python Info/Code,Data Types,Lists,Manipulate,Add item,Code
+Python Info/Code,Data Types,Lists,Manipulate,Remove item,Code
+Python Info/Code,Data Types,Lists,Manipulate,List  of strings to string,Code
+Python Info/Code,Data Types,Tuples,Manipulate,Call specific element,Code
+Python Info/Code,Data Types,Tuples,Manipulate,Call range,Code
+Python Info/Code,Data Types,Tuples,Manipulate,Add item,Can't Do This
+Python Info/Code,Data Types,Tuples,Manipulate,Remove item,Can't Do This
+Python Info/Code,Data Types,Tuples,Manipulate,Tuple of strings to string,Code
+Python Info/Code,Data Types,Dictionary,Manipulate,Add key/value pair,Code
+Python Info/Code,Data Types,Dictionary,Manipulate,Reassign key to new value,Code
+Python Info/Code,Data Types,Dictionary,Manipulate,Call or make list of dictionary keys,dict_name.keys() or list(dict_name.keys())
+Python Info/Code,Data Types,Dictionary,Manipulate,Call or make list of dictionary values,dict_name.values() or list(dict_name.values())
+Python Info/Code,Data Types,Booleans,Manipulate,Choose the opposite of value,not
+Python Info/Code,Data Types,Booleans,Manipulate,Where both items must be True,and
+Python Info/Code,Data Types,Booleans,Manipulate,Where one of the items must be True,or
+Python Info/Code,Built-in functions,Print,Variables,,Code
+Python Info/Code,Built-in functions,Print,Basic String,,Code
+Python Info/Code,Built-in functions,Print,Multi-Line String,,Code
+Python Info/Code,Built-in functions,Print,Multiple variables,,Code
+Python Info/Code,Built-in functions,Print,f strings,,Code
+Python Info/Code,Built-in functions,Absolute Number,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,All True?,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Any True?,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Unicode Character,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Division + Remainder,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Enumerate,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Filter iterable object,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Help,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Request user input,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Is object in interable?,isinstance,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Do X to each item in iterable,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Find largest item in iterable,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Find smallest item in iterable,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Round to nearest interger,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Items in iterable in sorted list,,https://docs.python.org/3/library/functions.html,Code
+Python Info/Code,Built-in functions,Total of numbers in iterable,,https://docs.python.org/3/library/functions.html,Code
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem

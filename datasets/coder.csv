@@ -1,0 +1,164 @@
+1st_choice,2nd_choice,3rd_choice,4th_choice,5th_choice,output,image_local
+Python Info/Code,Math Functions,Order of Operations,None,None,no_output,./PNGs/Python_Info_Code-Math_Functions-Order_of_Operations.png
+Python Info/Code,Math Functions,Addition,None,None,12 + 5\n\nPython will output 17.,./PNGs/Python_Info_Code-Math_Functions-Addition.png
+Python Info/Code,Math Functions,Subtraction,None,None,12 - 5\n\nPython will output 7.,no_image
+Python Info/Code,Math Functions,Multiplication,None,None,12 * 5\n\nPython will output 60.,no_image
+Python Info/Code,Math Functions,Division,None,None,"12 / 4\n\nPython will output 3.0.\nNote that division output floats (decimals) as default, not integers.",no_image
+Python Info/Code,Math Functions,Modulo/Remainder,None,None,"10 % 2\n\nPython will output 0.\n - It outputs the remainder that is left when you divide the first\n   number by the second.\n - If it divides evenly, the result is 0)",no_image
+Python Info/Code,Math Functions,Equals,None,None,2 + 2 == 4\n\nPython will output True.\n - It determines if the equation is True or False and outputs\n   that as the value.,no_image
+Python Info/Code,Math Functions,Floor Division,None,None,8 // 3\n\nPython will output 2.\n - Floor Division determines the answer and rounds down to the\n   integer below that number.\n - 3 / 8 equals 2.667 which rounds down to 2.,no_image
+Python Info/Code,Math Functions,Exponent,None,None,2 ** 3\n\nPython will output 8.\n2 ** 3 is equivalent to 2 * 2 * 2.,no_image
+Python Info/Code,Math Functions,Take Variable & Change its Value,None,None,"apple = 1\napple += 1\n\nValue of apple is now 2.\n\nThis process can be done with other operators,\n   including -=, *= and /=.",no_image
+Python Info/Code,Data Types,Variables,Naming Convention,None,"Generally speaking, nearly any combination of lowercase letters, \nuppercase letters, numbers and underscores can be used for a variable \nname, but the following either must or should be avoided:\n - You cannot begin the name with a number. \n - You cannot use operator words such as and, or & not (any word\n   that changes color when you complete it).\n - Avoid package names, module names, class names and function\n   names (Python may not throw an error but it will lead to problems).\n - Avoid using 'l' (lowercase el), 'I' (uppercase eye) or 'O'\n   (uppercase oh) as single character variable names (the 1st and\n   2nd can be confused for each other or the number 1 and the last\n   can be confused for the number 0).\n\nMost Python users snake case for naming variables. This is created \nusing lowercase letters and/or numbers separated by underscores,\nexamples include:\n - number_of_college_graduates \n - choice_1",no_image
+Python Info/Code,Data Types,Variables,Identify Data Type,None,type(variable_name)\n\nPython will output datatype.,no_image
+Python Info/Code,Data Types,Variables,Find Current Value,None,variable_name\n\nEnter the name and Python will output its current value.,no_image
+Python Info/Code,Data Types,Variables,List All Variables,None,"%whos\n\nPython will output a table with the headings: Variable, Types and Data/Info.\n - The Data/Info column will display the value if it is an integer, float or string.\n   but it will display the number of values if it is a list, set, tuple or dictionary.\n - This table is created at a point in time so its output would be different after you add a new variable",no_image
+Python Info/Code,Data Types,Variables,Delete Variable,None,del(variable_name)\n\nNote that Python will not output an acknowledgement of deletion.,no_image
+Python Info/Code,Data Types,Integers,Create,None,variable_name = 5,no_image
+Python Info/Code,Data Types,Floats/Decimals,Create,None,variable_name = 5.5,no_image
+Python Info/Code,Data Types,Strings,Create,None,variable_name = 'Hello'\n\nNote that the following:\n - You can use either single quotes or double quotes.\n - Any spaces in between the quotes are part of the string\n   (i.e. 'Hello ')\n - Returns can be added by adding a forward-slash followed by a\n   lowercase letter n.,no_image
+Python Info/Code,Data Types,Lists,Create,None,"variable_name = [5, 5.5, 'Hello']\n\nNote that the following:\n - Lists are made with square brackets.\n - Items are separated by commas.\n - The items have a defined ordered and allow duplicate values -\n   i.e. [5, 5.5, 5].\n - The items can be different data types (as they are in this example)\n   or all the same data type.",no_image
+Python Info/Code,Data Types,Tuples,Create,None,"variable_name = (5, 5.5, 'Hello')\n\nNote the following:\n - Tuples are are made with parentheses.\n - Items are separated by commas.\n - The items have a defined ordered and allow duplicate values -\n   i.e. (5, 5.5, 5).\n - The items can be different data types (as they are in this example)\n   or all the same data type.",no_image
+Python Info/Code,Data Types,Sets,Create,None,"variable_name = {5, 5.5, 'Hello'}\n\nNote the following:\n - Sets are are made with curly brackets.\n - Items are separated by commas.\n - The items do not have a defined ordered and duplicate values\n   are not allowed.\n - The items can be different data types (as they are in this example)\n   or all the same data type.",no_image
+Python Info/Code,Data Types,Dictionaries,Create,None,"variable_name = {\n     'brand': 'Ford' ,\n     'model':'Mustang',\n     'year': 1964\n}\n\nNote the following:\n - Dictionaries are are made with curly brackets.\n - Dictionaries store values in key:value pairs.\n - The key:value pairs do not have a defined order and do not allow\n   duplicate key names (different keys can have the same value).\n - The items can be different data types (as they are in this example)\n   or all the same data type.",no_image
+Python Info/Code,Data Types,Booleans,Create,None,"variable_name = True\n\nNote that the following:\n - The word (True or False) must be spelled with an uppercase\n   'T' or 'F'.\n - Typically, you will establish a boolean variable in this manner\n   and have it changed later if certain conditions are met.",no_image
+Python Info/Code,Data Types,Strings,Info,Length,len(string_name)\n\n\  OR\n\nlen('string')\n\nPython outputs the number of characters in the string.,no_image
+Python Info/Code,Data Types,Strings,Info,ID Specific Character,"string_name[0]\n\nCharacters in a string are indexed, starting at 0 for the first character\n(so if the string is 'Hello' in our code above, Python will output 'H').\n - Note that if a string has 5 characters, the last character can be IDed in 2 ways:\n   1. string_name[4]\n   2. string_name[-1]",no_image
+Python Info/Code,Data Types,Lists,Info,Length,"len(list_name)\n\n\  OR\n\nlen([item1, item2, item3])\n\nPython outputs the number of items in the list.",no_image
+Python Info/Code,Data Types,Lists,Info,ID Specific List Item,"list_name[0]\n\nItems in a list are indexed, starting at 0 for the first item\n(so if the list is [1,2,3] in our code above, Python will output 1).\n - Note that if a list contains 5 items, the last item can be IDed in 2 ways:\n   1. list_name[4]\n   2. list_name[-1]",no_image
+Python Info/Code,Data Types,Tuples,Info,Length,"len(tuple_name)\n\n\  OR\n\nlen((item1, item2, item3))\n\nPython outputs the number of items in the tuple.",no_image
+Python Info/Code,Data Types,Tuples,Info,ID Specific Tuple Item,"tuple_name[0]\n\nItems in a tuple are indexed, starting at 0 for the first item\n(so if the tuple is (1,2,3) in our code above, Python will output 1).\n - Note that if a tuple contains 5 items, the last item can be IDed in 2 ways:\n   1. tuple_name[4]\n   2. tuple_name[-1]",no_image
+Python Info/Code,Data Types,Sets,Info,Length,"len(set_name)\n\n\  OR\n\nlen({item1, item2, item3})\n\nPython outputs the number of items in the set.",no_image
+Python Info/Code,Data Types,Sets,Info,ID Specific Set Item,You cannot ID an item by location in a set as sets do not have an order,no_image
+Python Info/Code,Data Types,Dictionaries,Info,Length,"len(set_name)\n\n\  OR\n\nlen({item1, item2, item3})\n\nPython outputs the number of items in the set.",no_image
+Python Info/Code,Data Types,Dictionaries,Info,ID Specific Dictionary Item by Location,You cannot ID an item by location in a set as sets do not have an order.,no_image
+Python Info/Code,Data Types,Dictionaries,Info,ID Specific Dictionary Item by Key,"len(dict_name)\n\n\  OR\n\nlen({key1:value1,key2:value2, key3:value3})\n\nPython outputs the number of key:value pairs in the dictionary.",no_image
+Python Info/Code,Data Types,Integers,Properties,None,You cannot ID an item by location in a dictionary as dictionaries do not have an order.,no_image
+Python Info/Code,Data Types,Floats/Decimals,Properties,None,"dict_name[key1]\n\nPython outputs value that corresponds to the first key.\n - If the dictionary is {1:'a',2:'b',3:'c'}, dict_name[1] would output 'a'.",no_image
+Python Info/Code,Data Types,Strings,Properties,None,Info,no_image
+Python Info/Code,Data Types,Lists,Properties,None,Info,no_image
+Python Info/Code,Data Types,Tuples,Properties,None,Info,no_image
+Python Info/Code,Data Types,Sets,Properties,None,Info,no_image
+Python Info/Code,Data Types,Dictionaries,Properties,None,Info,no_image
+Python Info/Code,Data Types,Booleans,Properties,None,Info,no_image
+Python Info/Code,Data Types,Integers,Manipulate,Integer to String,Code,no_image
+Python Info/Code,Data Types,Integers,Manipulate,Integer to Float,Code,no_image
+Python Info/Code,Data Types,Floats/Decimals,Manipulate,Float to Integer,Code,no_image
+Python Info/Code,Data Types,Floats/Decimals,Manipulate,Float to String,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Numeric String to Integer,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Numeric String to Float,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Slicing,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Splitting Into List,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Make All Lowercase,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Make All Uppercase,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Replace a Word/Segment,Code,no_image
+Python Info/Code,Data Types,Strings,Manipulate,Combine Strings,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,Call specific element,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,Call range,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,Combine Lists,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,Add item,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,Remove item,Code,no_image
+Python Info/Code,Data Types,Lists,Manipulate,List  of strings to string,Code,no_image
+Python Info/Code,Data Types,Tuples,Manipulate,Call specific element,Code,no_image
+Python Info/Code,Data Types,Tuples,Manipulate,Call range,Code,no_image
+Python Info/Code,Data Types,Tuples,Manipulate,Add item,Can't Do This,no_image
+Python Info/Code,Data Types,Tuples,Manipulate,Remove item,Can't Do This,no_image
+Python Info/Code,Data Types,Tuples,Manipulate,Tuple of strings to string,Code,no_image
+Python Info/Code,Data Types,Dictionaries,Manipulate,Add key/value pair,Code,no_image
+Python Info/Code,Data Types,Dictionaries,Manipulate,Reassign key to new value,Code,no_image
+Python Info/Code,Data Types,Dictionaries,Manipulate,Call or make list of dictionary keys,dict_name.keys() or list(dict_name.keys()),no_image
+Python Info/Code,Data Types,Dictionaries,Manipulate,Call or make list of dictionary values,dict_name.values() or list(dict_name.values()),no_image
+Python Info/Code,Data Types,Booleans,Manipulate,Choose the opposite of value,not,no_image
+Python Info/Code,Data Types,Booleans,Manipulate,Where both items must be True,and,no_image
+Python Info/Code,Data Types,Booleans,Manipulate,Where one of the items must be True,or,no_image
+Python Info/Code,Built-in functions,Print,Variables,None,Code,no_image
+Python Info/Code,Built-in functions,Print,Basic String,None,Code,no_image
+Python Info/Code,Built-in functions,Print,Multi-Line String,None,Code,no_image
+Python Info/Code,Built-in functions,Print,Multiple variables,None,Code,no_image
+Python Info/Code,Built-in functions,Print,f strings,None,Code,no_image
+Python Info/Code,Built-in functions,Absolute Number,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,All True?,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Any True?,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Unicode Character,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Division + Remainder,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Enumerate,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Filter iterable object,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Help,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Request user input,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Is object in iterable?,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Do X to each item in iterable,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Find largest item in iterable,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Find smallest item in iterable,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Round to nearest integer,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Items in iterable in sorted list,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Python Info/Code,Built-in functions,Total of numbers in iterable,None,https://docs.python.org/3/library/functions.html,Code,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Pandas Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Numpy Info/Code,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
+Data Visualization Builder,Lorem,Lorem,Lorem,Lorem,Lorem,no_image
