@@ -1,6 +1,6 @@
 # PYTHON CODE FINDER
 ### Author: Steven Diamond
-## Last Updated: 12/14/2020
+#### Last Updated: 12/14/2020
 
 ## Overview
 The purpose of this project is to create a searchable database that can be used by Python users to find information and code that they are searching for. Users make a series of choices to find what they are searching for and the notebook will return one or more of the following:
